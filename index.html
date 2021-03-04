@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Day2 Week 3</title>
+    </head>
+    <body>
+ 
+        <script>
+            function changeText2(){
+                var userInput = document.getElementById("userInput").value;
+                document.getElementById('boldStuff2').innerHTML = userInput;
+
+            }
+        </script>
+        <p>I love<b id="boldStuff2">Code</b></p>
+        <input type="text" id="userInput" value="Enter Text here" />
+        <input type="button" onclick="changeText2()" value="Change Text"/>
+    </body>
+</html>
